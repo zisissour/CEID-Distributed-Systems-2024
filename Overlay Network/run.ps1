@@ -20,6 +20,6 @@ Start-Sleep -Seconds 5
 
 echo "Starting heartbeat and temperature generator"
 
-$command = "python ./hbgt.py 0"
+$command = "python ./HBTG.py 0"
 
 Start-Process powershell -ArgumentList "-NoExit", "-Command $command"
